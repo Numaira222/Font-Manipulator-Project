@@ -1,0 +1,31 @@
+body{
+    background-image: url("background.jpg");
+    size: 100%;
+}
+.heading{
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 10px 10px 10px gray;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 1px;
+}
+.note{
+    font-size: 20px;
+    color: black;
+}
+.copy_right_footer{
+    position: fixed;
+    color: white;
+    width: 100%;
+    bottom: 0px;
+    background-color: gray;
+    text-align: center;
+    line-height: 3;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+    
+}
