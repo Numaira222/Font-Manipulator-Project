@@ -6,7 +6,7 @@ function setup(){
 video = createCapture(VIDEO);
 video.size(400,400);
 canvas = createCanvas(400,400);
-canvas.position(560,150);
+canvas.position(560,200);
 poseNet = ml5.poseNet(video, modelLoaded);
 poseNet.on("pose", gotPoses);
 }
@@ -20,7 +20,7 @@ function draw(){
     textSize(difference);
     fill("purple");
     text('Numaira',20,100)
-    document.getElementById("font_size").innerHTML = "The font size will be : " + difference + "px"
+    document.getElementById("font_size").innerHTML =  difference + "px"
 
 }
 function modelLoaded(){
